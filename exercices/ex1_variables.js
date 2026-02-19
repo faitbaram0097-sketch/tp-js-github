@@ -6,5 +6,6 @@ function infosEtudiant(nom, note) {
     }
 }
 
+// console.log
 console.log(infosEtudiant("Hiba", 14));
 console.log(infosEtudiant("Ali", 8));

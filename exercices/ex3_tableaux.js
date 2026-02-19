@@ -9,7 +9,7 @@ for(let i = 0; i < notes.length; i++) {
 let moyenne = somme / notes.length;
 console.log("Moyenne : " + moyenne.toFixed(2));
 
-
+// Meilleure note
 let max = notes[0];
 for(let i = 1; i < notes.length; i++) {
     if(notes[i] > max) {
@@ -18,7 +18,7 @@ for(let i = 1; i < notes.length; i++) {
 }
 console.log("Meilleure note : " + max);
 
-
+//  Nombre de notes ≥ 10
 let count = 0;
 for(let i = 0; i < notes.length; i++) {
     if(notes[i] >= 10) {
